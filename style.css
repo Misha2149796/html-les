@@ -1,31 +1,51 @@
+
+/* backgroundcolor en title kleur  */
 body {
-    background-color: rgb(80, 80, 80);
+    background-image: linear-gradient(rgb(151, 151, 151), rgb(80, 80, 80));
     color: white;
 }
 
-h1 {
-    position: relative;
-    padding-left: 50%;
-}
-
-.cv {
-    padding-top: 50px;
+.titles {
     display: flex;
-    justify-content: center;
-    flex-direction: space-between;
     justify-content: space-around;
 }
 
+/* alle teksten in de vakjes stylen */
+.text {
+    font-size: 30px;
+    color: rgb(87, 87, 255);
+}
+
+/* naam als title stylen  */
+h1 {
+    display: grid;
+    position: relative;
+    padding-left: 50%;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: black 0px 0 4px;;
+}
+
+/* met grid en flexbox mooi gemaakt in vakjes  */
+.cv {
+    padding-top: 50px;
+    margin-left: 27rem;
+    width: 80rem;
+    height: 20rem;
+    display: grid;
+    grid-template-columns: 60rem 60rem ;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+/* style de vakjes mooier  */
 .info {
     background-color: white;
     color: grey;
-    width: 30%;
-    height: 100px;
-}
-
-.info2 {
-    background-color: white;
-    color: grey;
-    width: 30%;
-    height: 100px;
+    width: 33%;
+    height: 140px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 0px rgba(26, 26, 26, 0.2);
 }
