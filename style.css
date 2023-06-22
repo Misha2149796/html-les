@@ -29,13 +29,12 @@ h1 {
 /* met grid en flexbox mooi gemaakt in vakjes  */
 .cv {
     padding-top: 50px;
-    margin-left: 27rem;
-    width: 80rem;
-    height: 20rem;
+    margin-left: 40rem;
+    width: auto;
+    height: 16.3rem;
     display: grid;
     grid-template-columns: 60rem 60rem ;
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content: center;
 }
 
 /* style de vakjes mooier  */
@@ -43,9 +42,10 @@ h1 {
     background-color: white;
     color: grey;
     width: 33%;
-    height: 140px;
+    height: 150px;
     border-radius: 10px;
     font-family: sans-serif;
     font-weight: bold;
     box-shadow: 5px 5px 5px 0px rgba(26, 26, 26, 0.2);
+    padding: 10px;
 }
